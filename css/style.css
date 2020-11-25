@@ -1,0 +1,49 @@
+body >div:first-child{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+#CalBas{
+    background-color:lightgray;
+    color: black;
+    font-size: larger;
+    padding: 0.5vh;
+    text-align: center;
+}
+
+.Calculadora{
+    margin: 20px;
+
+    height: auto;
+    width: auto;
+
+    max-width: 30%;
+    max-height: 30%;
+
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+}
+
+.Calculadora >input[type="text"]{
+    background-color:black;
+    color:white;
+}
+
+.botones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones>button{
+    margin:2px;
+    /*padding: 12px;*/
+    background-color: blue;
+    color: white;
+    border:none;
+    cursor: pointer;
+}

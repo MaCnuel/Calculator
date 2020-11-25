@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div>
+        <div>
+            <div id="CalBas"><p>Calculadora Básica</p></div>
+            <div class="Calculadora">
+                <input type="text" id="screen">
+                <div class="botones">
+                    <button onclick="AddNumber(1)"><p>1</p></button>
+                    <button onclick="AddNumber(2)"><p>2</p></button>
+                    <button onclick="AddNumber(3)"><p>3</p></button>
+                    <button onclick="Operation(1)"><p>+</p></button>
+                    <button onclick="AddNumber(4)"><p>4</p></button>
+                    <button onclick="AddNumber(5)"><p>5</p></button>
+                    <button onclick="AddNumber(6)"><p>6</p></button>
+                    <button onclick="Operation(2)"><p>-</p></button>
+                    <button onclick="AddNumber(7)"><p>7</p></button>
+                    <button onclick="AddNumber(8)"><p>8</p></button>
+                    <button onclick="AddNumber(9)"><p>9</p></button>
+                    <button onclick="Operation(3)"><p>*</p></button>
+                    <button onclick="AddNumber(0)"><p>0</p></button>
+                    <button onclick="AddNumber('.')"><p>.</p></button>
+                    <button onclick="Erase_last_number()"><p>C</p></button>
+                    <button onClick="Operation(99)"><p>=</p></button>
+                </div>
+            </div>
+        </div>
+        
+        <div> </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
